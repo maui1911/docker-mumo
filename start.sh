@@ -9,6 +9,7 @@ then
   sed -i 's/modules-enabled\//\/data\/modules-enabled\//' /data/mumo.ini
 
   chmod a+rw /data/mumo.ini
+  cp -r /mumo/modules /data
   cp -r /mumo/modules-available /data
   mkdir -p /data/modules-enabled
 
@@ -19,4 +20,3 @@ fi
 cp -rv /data/modules-enabled /mumo
 cp -rv /data/mumo.ini /mumo
 ./mumo.py
-
