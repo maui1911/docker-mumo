@@ -17,6 +17,8 @@ then
   exit 1
 fi
 
+cp -rv /data/modules /mumo
+cp -rv /data/modules-available /mumo
 cp -rv /data/modules-enabled /mumo
 cp -rv /data/mumo.ini /mumo
 ./mumo.py
