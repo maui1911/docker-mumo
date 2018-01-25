@@ -1,6 +1,6 @@
 FROM phusion/baseimage:0.9.11
 
-MAINTAINER Coleman Nitroy <cnitroy@me.com>
+MAINTAINER maui1911
 
 RUN apt-get update
 RUN apt-get install -y python git python-zeroc-ice
